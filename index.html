@@ -11,12 +11,21 @@
 
 	<link rel="icon" href="./icons/logo-3.png">
 	<link rel='stylesheet' href='./build/bundle.css'>
- 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
-
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+	
+	<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+	<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css" type="text/css">
+  	
+	<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+	<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+	
+	
+	<script src='https://mapbox.github.io/mapbox-gl-language/index.js'></script>
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 	<script defer src='./build/bundle.js'></script>
 </head>
 
 <body>
+	<div id="map" style="height: 600px;" class="h-full min-h-screen"></div>
 </body>
 </html>
